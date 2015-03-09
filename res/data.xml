@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cwbopendata xmlns="urn:cwb:gov:tw:cwbcommon:0.1">
+    <identifier >7f50eb4a-7f5f-da37-279b-18345b0d03a9</identifier>
+    <sender >weather@cwb.gov.tw</sender>
+    <sent >2015-03-09T17:06:21+08:00</sent>
+    <status >Actual</status>
+    <msgType >Issue</msgType>
+    <source >MFC</source>
+    <dataid >C0032-005</dataid>
+    <scope >Public</scope>
+    <dataset >
+        <datasetInfo>
+            <datasetDescription>一週縣市天氣預報</datasetDescription>
+            <issueTime>2015-03-09T17:00:00+08:00</issueTime>
+            <update>2015-03-09T17:06:21+08:00</update>
+        </datasetInfo>
+        <location>
+            <locationName>臺北市</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2015-03-09T18:00:00+08:00</startTime>
+                    <endTime>2015-03-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰天</parameterName>
+                        <parameterValue>3</parameterValue>
+                    </parameter>
+                </time>
+
+                <time>
+                    <startTime>2015-03-16T18:00:00+08:00</startTime>
+                    <endTime>2015-03-17T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲</parameterName>
+                        <parameterValue>2</parameterValue>
+                    </parameter>
+            </time>
+            </weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2015-03-09T18:00:00+08:00</startTime>
+                    <endTime>2015-03-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>15</parameterName>
+                        <parameterUnit>C</parameterUnit>
+                    </parameter>
+                </time>
+                <time>
+                    <startTime>2015-03-10T06:00:00+08:00</startTime>
+                    <endTime>2015-03-10T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>14</parameterName>
+                        <parameterUnit>C</parameterUnit>
+                    </parameter>
+                </time>
+                
+            </weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2015-03-09T18:00:00+08:00</startTime>
+                    <endTime>2015-03-10T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>13</parameterName>
+                        <parameterUnit>C</parameterUnit>
+                    </parameter>
+                </time>
+                <time>
+                    <startTime>2015-03-10T06:00:00+08:00</startTime>
+                    <endTime>2015-03-10T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>13</parameterName>
+                        <parameterUnit>C</parameterUnit>
+                    </parameter>
+                </time>
+               
+            </weatherElement>
+        </location>
+        </dataset>
+</cwbopendata>
